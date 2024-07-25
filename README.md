@@ -1,27 +1,70 @@
-# FirstAngularApp
+# Team Todo App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+## Overview
 
-## Development server
+**Team Todo App** is a simple Angular application that allows team task management. Each team member can add their tasks, mark them as complete, and view other members' tasks. The tasks are saved in the browser's localStorage, ensuring they are not lost when the page is reloaded.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- Add new tasks for any team member.
+- Mark tasks as completed.
+- View all tasks and their respective assignments.
+- Save tasks in the browser's localStorage`.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies Used
 
-## Build
+- Angular
+- TypeScript
+- HTML5
+- CSS3
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## How to Run the Project
 
-## Running unit tests
+### Requirements
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Node.js (v14 ou superior)
+- Angular CLI
 
-## Running end-to-end tests
+### Step-by-Step
+1. Clone the repository:
+```
+   git clone https://github.com/seu-usuario/team-todo-app.git
+   cd team-todo-app
+```
+2. Install dependencies:
+```
+  npm install
+```
+3. Run the development server:
+```
+    ng serve
+```
+Open your browser and go to http://localhost:4200.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Estrutura do Projeto
+```
+    src/app: Contains Angular components, services, and models.
 
-## Further help
+    src/assets: Static files such as images and global styles.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    src/environments: Environment configurations.
+```
+Application Screenshots
+
+Home Page
+![image](https://github.com/user-attachments/assets/44bb7fc1-30cd-4acf-8e17-6d694397f87e)
+
+Adding a New Task
+![image](https://github.com/user-attachments/assets/534a3f82-2a64-4867-b775-f235823e220b)
+
+Individual Tasks
+![image](https://github.com/user-attachments/assets/1f645655-507a-4ead-b445-075e4e2418e5)
+
+Contribution
+
+    - Fork the project.
+    - Create a new branch for your feature (git checkout -b feature/new-feature).
+    - Commit your changes (git commit -m 'Add new feature').
+    - Push to the branch (git push origin feature/new-feature).
+    - Open a Pull Request.
+
