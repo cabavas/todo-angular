@@ -1,27 +1,68 @@
-# FirstAngularApp
+# Team Todo App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+![Logo](link-para-logo.png)
 
-## Development server
+## Visão Geral
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**Team Todo App** é uma aplicação simples desenvolvida em Angular que permite a gestão de tarefas de um time. Cada membro do time pode adicionar suas tarefas, marcá-las como completas e visualizar as tarefas de outros membros. As tarefas são salvas no `localStorage` do navegador, garantindo que não sejam perdidas ao recarregar a página.
 
-## Code scaffolding
+## Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Adicionar novas tarefas para qualquer membro do time.
+- Marcar tarefas como concluídas.
+- Visualizar todas as tarefas e suas respectivas atribuições.
+- Salvar as tarefas no `localStorage` do navegador.
 
-## Build
+## Tecnologias Utilizadas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular
+- TypeScript
+- HTML5
+- CSS3
+- Bootstrap (para estilização)
 
-## Running unit tests
+## Como Executar o Projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Pré-requisitos
 
-## Running end-to-end tests
+- Node.js (v14 ou superior)
+- Angular CLI
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Passo a Passo
+1. Clone o repositório:
+```
+   git clone https://github.com/seu-usuario/team-todo-app.git
+   cd team-todo-app
+```
+2. Instale as dependências:
+```
+  npm install
+```
+3. Execute o servidor de desenvolvimento:
+```
+    ng serve
+```
+Abra o navegador e acesse http://localhost:4200.
 
-## Further help
+Estrutura do Projeto
+```
+    src/app: Contém os componentes, serviços e modelos do Angular.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    src/assets: Arquivos estáticos como imagens e estilos globais.
+
+    src/environments: Configurações de ambiente.
+```
+Prints da Aplicação
+Página Inicial
+
+Adicionando uma Nova Tarefa
+
+Tarefas Concluídas
+
+Contribuição
+
+    - Faça um fork do projeto.
+    - Crie uma nova branch para sua funcionalidade (git checkout -b feature/nova-funcionalidade).
+    - Commit suas alterações (git commit -m 'Adiciona nova funcionalidade').
+    - Faça um push para a branch (git push origin feature/nova-funcionalidade).
+    - Abra um Pull Request.
