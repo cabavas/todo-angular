@@ -1,7 +1,5 @@
 # Team Todo App
 
-![Logo](src/assets/task-management-logo.png)
-
 ## Overview
 
 **Team Todo App** is a simple Angular application that allows team task management. Each team member can add their tasks, mark them as complete, and view other members' tasks. The tasks are saved in the browser's localStorage, ensuring they are not lost when the page is reloaded.
