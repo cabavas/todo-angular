@@ -1,68 +1,72 @@
 # Team Todo App
 
-![Logo](link-para-logo.png)
+![Logo](src/assets/task-management-logo.png)
 
-## Visão Geral
+## Overview
 
-**Team Todo App** é uma aplicação simples desenvolvida em Angular que permite a gestão de tarefas de um time. Cada membro do time pode adicionar suas tarefas, marcá-las como completas e visualizar as tarefas de outros membros. As tarefas são salvas no `localStorage` do navegador, garantindo que não sejam perdidas ao recarregar a página.
+**Team Todo App** is a simple Angular application that allows team task management. Each team member can add their tasks, mark them as complete, and view other members' tasks. The tasks are saved in the browser's localStorage, ensuring they are not lost when the page is reloaded.
 
-## Funcionalidades
+## Features
 
-- Adicionar novas tarefas para qualquer membro do time.
-- Marcar tarefas como concluídas.
-- Visualizar todas as tarefas e suas respectivas atribuições.
-- Salvar as tarefas no `localStorage` do navegador.
+- Add new tasks for any team member.
+- Mark tasks as completed.
+- View all tasks and their respective assignments.
+- Save tasks in the browser's localStorage`.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - Angular
 - TypeScript
 - HTML5
 - CSS3
-- Bootstrap (para estilização)
 
-## Como Executar o Projeto
+## How to Run the Project
 
-### Pré-requisitos
+### Requirements
 
 - Node.js (v14 ou superior)
 - Angular CLI
 
-### Passo a Passo
-1. Clone o repositório:
+### Step-by-Step
+1. Clone the repository:
 ```
    git clone https://github.com/seu-usuario/team-todo-app.git
    cd team-todo-app
 ```
-2. Instale as dependências:
+2. Install dependencies:
 ```
   npm install
 ```
-3. Execute o servidor de desenvolvimento:
+3. Run the development server:
 ```
     ng serve
 ```
-Abra o navegador e acesse http://localhost:4200.
+Open your browser and go to http://localhost:4200.
 
 Estrutura do Projeto
 ```
-    src/app: Contém os componentes, serviços e modelos do Angular.
+    src/app: Contains Angular components, services, and models.
 
-    src/assets: Arquivos estáticos como imagens e estilos globais.
+    src/assets: Static files such as images and global styles.
 
-    src/environments: Configurações de ambiente.
+    src/environments: Environment configurations.
 ```
-Prints da Aplicação
-Página Inicial
+Application Screenshots
 
-Adicionando uma Nova Tarefa
+Home Page
+![image](https://github.com/user-attachments/assets/44bb7fc1-30cd-4acf-8e17-6d694397f87e)
 
-Tarefas Concluídas
+Adding a New Task
+![image](https://github.com/user-attachments/assets/534a3f82-2a64-4867-b775-f235823e220b)
 
-Contribuição
+Individual Tasks
+![image](https://github.com/user-attachments/assets/1f645655-507a-4ead-b445-075e4e2418e5)
 
-    - Faça um fork do projeto.
-    - Crie uma nova branch para sua funcionalidade (git checkout -b feature/nova-funcionalidade).
-    - Commit suas alterações (git commit -m 'Adiciona nova funcionalidade').
-    - Faça um push para a branch (git push origin feature/nova-funcionalidade).
-    - Abra um Pull Request.
+Contribution
+
+    - Fork the project.
+    - Create a new branch for your feature (git checkout -b feature/new-feature).
+    - Commit your changes (git commit -m 'Add new feature').
+    - Push to the branch (git push origin feature/new-feature).
+    - Open a Pull Request.
+
